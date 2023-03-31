@@ -7,4 +7,4 @@ def groupAnagrams(strs):
         d[key].append(word)
     return list(d.values())
 
-#  'for key in d' in almost x10 faster than 'for key in d.keys()'
+#  'for key in d' is much faster than 'for key in d.keys()'
