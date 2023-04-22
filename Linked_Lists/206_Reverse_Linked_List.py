@@ -1,5 +1,6 @@
 def reverseList(head):
     prev, curr = None, head
+    # reversing the links of the list
 
     while curr:
         # temp
@@ -10,6 +11,7 @@ def reverseList(head):
         # shift pointer across,
         prev = curr
         curr = nxt
+    #prev pointer is equal to the new head
     return prev
 
 def reverseList_recursive(self, head):
