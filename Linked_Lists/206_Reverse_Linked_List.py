@@ -25,20 +25,3 @@ def reverseList_recursive(self, head):
         head.next.next = head
     head.next = None
     return newHead
-
-    # head = (1) head.next = None, so no change
-  """
-  Head = (1,2)
-  NewHead = (1,2)
-  head.next = 2
-    newHead = reverselist(2)
-        head.next = None
-        head.next = None
-        head(1 -> 2 -> None)
-...
-
-    Don't understand the recursive function, ask Nicky?
-    
-        
-  
-  """
