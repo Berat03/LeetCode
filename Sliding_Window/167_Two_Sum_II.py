@@ -4,7 +4,6 @@ class Solution:
 
         for left in range(len(numbers)):
             while numbers[left] + numbers[right] > target:
-                numbers.pop()
                 right -= 1
 
             if numbers[left] + numbers[right] == target:
